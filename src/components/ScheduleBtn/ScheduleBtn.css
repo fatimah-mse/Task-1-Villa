@@ -1,0 +1,31 @@
+.FM-schedule-btn {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.FM-schedule-icon {
+    padding: 13px ;
+    border-radius: 50%;
+    background-color: var(--color-orange);
+    color: var(--color-white);
+    position: absolute;
+    left: 0px;
+}
+.FM-schedule-link {
+    padding: 10px 30px 10px 50px;
+    text-decoration: none;
+    border-radius: 50px;
+}
+.FM-schedule-link-dark {
+    color: var(--color-dark);
+    background-color: var(--color-white);
+}
+.FM-schedule-link-light {
+    color: var(--color-white);
+    background-color: var(--color-dark);
+}
+@media screen and (max-width:992px){
+    .FM-schedule-btn{
+        margin-bottom: 20px;
+    }
+}

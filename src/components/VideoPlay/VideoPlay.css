@@ -1,0 +1,31 @@
+.FM-video-play {
+    height: 400px;
+    width: 62vw;
+    margin: 0 auto;
+    background-image: url(./images/video-frame.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translateY(-40%);
+    border-radius: 10px;
+}
+.FM-video-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    color: var(--color-orange);
+    background-color: var(--color-white);
+    border: 10px solid var(--color-orange-border);
+}
+@media screen and (max-width:768px) {
+    .FM-video-play {
+        width: 90vw;
+    }
+}

@@ -1,0 +1,114 @@
+.FM-sec-1 {
+    margin: 110px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.FM-div-35 {
+    width: 30%;
+    margin: 25px 0;
+}
+.FM-sec-1 .FM-div-35 {
+    height: 420px;
+    position: relative;
+    padding: 0  0 40px 40px;
+}
+.FM-sec-1 .FM-div-35 img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+.FM-sec-1 .FM-div-35 .icon-featured{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 0;
+    left: 0;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background-color: var(--color-orange);
+}
+.FM-sec-1 .FM-div-35 .icon-featured img{
+    width: 60%;
+    height: 65%;
+}
+.FM-div-40 {
+    width: 40%;
+    margin: 25px 0;
+}
+.FM-div-40 .FM-h2{
+    width: 80%;
+}
+.FM-accordion {
+    background-color: var(--color-gray);
+    margin-top: 60px;
+    border-radius: 10px;
+}
+.FM-accordion .FM-Question {
+    font-size: 1.0625rem;
+    font-weight: 500;
+    cursor: pointer;
+    padding: 15px 20px;
+    border-bottom: 1px solid var(--color-border);
+}
+.FM-accordion-show {
+    color: var(--color-orange);
+}
+.FM-accordion-desc {
+    padding: 15px 20px;
+    font-size: 1.0625rem;
+    line-height: 25px;
+}
+.FM-span-blue {
+    color: var(--color-blue);
+}
+.FM-span-pink {
+    color: var(--color-pink);
+}
+.FM-div-25 {
+    width: 23%;
+    margin: 25px 0;
+    padding: 0 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 2px var(--color-border);
+}
+.FM-info {
+    padding: 40px 0;
+    display: flex;
+    align-items: center;
+}
+.FM-info div{
+    margin-left: 20px;
+}
+.FM-info div h4 {
+    font-size: 1.375rem;
+    font-weight: 700;
+}
+.FM-info div p {
+    font-size: 0.9375rem;
+    font-weight: 400;
+    opacity: 0.6;
+}
+.FM-border {
+    border-bottom: 1px solid var(--color-border);
+}
+@media screen and (max-width:992px){
+    .FM-div-35 , .FM-div-40 , .FM-div-25{
+        width: 45%;
+    }
+}
+@media screen and (max-width:768px){
+    .FM-div-35 , .FM-div-40 , .FM-div-25{
+        width: 100%;
+    }
+}
+@media screen and (max-width:576px){
+    .FM-info div h4 {
+        font-size: 1.2rem;
+    }
+    .FM-info div p {
+        font-size: 0.8rem;
+    }
+}

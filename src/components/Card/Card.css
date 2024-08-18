@@ -1,0 +1,76 @@
+.FM-card {
+    width: 31%;
+    padding: 20px;
+    margin: 20px 0;
+    background-color: var(--color-gray);
+    border-radius: 10px;
+}
+.FM-card-img {
+    width: 100%;
+    object-fit: cover;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+.FM-category {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+}
+.FM-category span:nth-child(1){
+    font-weight: 600;
+    color: var(--color-dark);
+    padding: 10px;
+    border-radius: 6px;
+    background-color: var(--color-number-card);
+}
+.FM-category span:nth-child(2){
+    font-size: 1.8rem;
+    font-weight: 900;
+    color: var(--color-orange);
+}
+.FM-h4 {
+    text-align: left;
+    padding: 10px 0;
+    font-size: 1.2rem;
+}
+.FM-feature {
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 20px;
+    border-bottom: 1px solid var(--color-border);
+}
+.FM-feature p{
+    margin-right: 20px;
+}
+.FM-feature p span{
+    font-weight: 700;
+}
+.FM-schedule-button {
+    display: inline-block;
+    margin: 15px auto 0 0;
+    padding: 10px 20px;
+    border-radius: 50px;
+    text-decoration: none;
+    color: var(--color-white);
+    background-color: var(--color-dark);
+    transition: .2s ease-in-out;
+}
+.FM-schedule-button:hover {
+    background-color: var(--color-orange);
+}
+@media screen and (max-width:768px) {
+    .FM-card {
+        width: 45%;
+    }
+    .FM-category span:nth-child(2){
+        font-size: 1.4rem;
+    }
+}
+@media screen and (max-width:576px) {
+    .FM-card {
+        width: 100%;
+    }
+}

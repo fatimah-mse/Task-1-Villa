@@ -1,0 +1,22 @@
+.FM-properties {
+    text-align: center;
+}
+.FM-properties .FM-h6 {
+    padding-top: 80px;
+}
+.FM-properties .FM-h2 {
+    display: flex;
+    margin: 0 auto 40px auto;
+    width: 30%;
+}
+.FM-properties-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 80px;
+}
+@media screen and (max-width:768px) {
+    .FM-properties .FM-h2 {
+        width: 100%;
+    }
+}
